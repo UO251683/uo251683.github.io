@@ -23,18 +23,6 @@ h2 {
     text-transform: uppercase;
 }
 
-val {
-    background-color: orange;
-    width: 90px;
-    border: 10px solid orange;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    color: orange;
-    text-decoration: none;
-    display: inline-block;
-}
-
 p {
     background-color: lightgray;
     width: 83%;
