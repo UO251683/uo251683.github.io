@@ -1,8 +1,11 @@
+/* Estilo para el cuerpo del html */
 body {
     font: 400 15px Tahoma; /*Familia sans-serif*/
     line-height: 1.8;
     color: lightgray;
 }
+
+/* Estilo para encabezadp nivel 1 */
 h1 {
     background-color:#FF5733;
     color: #fff;
@@ -12,6 +15,7 @@ h1 {
     width: 95%;
 }
 
+/* Estilo para encabezado nivel 2 */
 h2 {
     background-color: white;
     width: 83%;
@@ -23,6 +27,7 @@ h2 {
     text-transform: uppercase;
 }
 
+/* Estilo para los párrafos (texto) */
 p {
     background-color: lightgray;
     width: 83%;
@@ -33,11 +38,7 @@ p {
     color: green;
 }
 
-.floated {
-    float:left;
-    margin-right:5px;
-}
-
+/* Estilo para los botones (indice) */
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -50,6 +51,7 @@ p {
     margin-bottom: 10px;
 }
 
+/* Estilo para la tabla */
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -73,3 +75,27 @@ p {
     background-color: #4CAF50;
     color: white;
 }
+/* Fin estilo de tabla */
+
+/* Estilo para link no visitado */
+a:link {
+    color: blue;
+}
+
+/* Estilo para link visitado */
+a:visited {
+    color: purple;
+}
+
+/* Estilo para ratón encima de link */
+a:hover {
+    color: lightblue;
+}
+
+/* Estilo para link seleccionado */
+a:active {
+    color: pink;
+}
+
+/* Estilo para listas (con circulos coloreados) */
+ul.b {list-style-type: square;}
